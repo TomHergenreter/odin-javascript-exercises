@@ -11,11 +11,11 @@ const sumAll = function(...numbers){
             return 'ERROR';
         }    
     }
-    
+
     if(lowNum === 1){
         return((highNum * (highNum + 1) / 2))
     }else{
-    return(Math.floor(((highNum - lowNum) + 1) * (highNum + lowNum) / 2));
+    return(((highNum - lowNum) + 1) * (highNum + lowNum) / 2);
     };   
 };
 
